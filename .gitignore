@@ -1,0 +1,24 @@
+# === Large data — never commit (GitHub rejects >100 MB; archive on Zenodo instead) ===
+DATA/
+*.RData
+*.rds
+*.RDS
+*.h5
+*.h5ad
+*.mtx
+*.mtx.gz
+
+# === R / RStudio ===
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# === Session / OS / tooling ===
+.remember/
+.DS_Store
+Thumbs.db
+
+# === Stray output PDFs at repo root (figures live in Figures/) ===
+/Day5_upregulated_only_3ploss.pdf
+/Day10_upregulated_only_3ploss.pdf
