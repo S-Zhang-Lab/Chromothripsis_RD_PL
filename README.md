@@ -1,5 +1,7 @@
 # Chromothripsis_2
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20779472.svg)](https://doi.org/10.5281/zenodo.20779472)
+
 A full scale single cell experiment with Drs. Peter Ly and Rashmi Dahiya.
 
 <img src="Misc/Chromosome.png" alt="Chromosome" width="200" height="250"/>
@@ -29,7 +31,8 @@ UTSW20_L3_mRNA_SI_TT_A3 921,456,798 ; UTSW20_L3_HTO_D703 153,664,291
 
 ### RAW data and Pre-processing
 
--   Raw NovaSeq X FASTQ files are available from GEO (accession GSEXXXXXX).
+-   Raw NovaSeq X FASTQ files and Cell Ranger filtered matrices are available from GEO (accession GSEXXXXXX).
+-   Intermediate R data objects (integrated Seurat object, post-inferCNV object, DEG/GSVA inputs) needed to reproduce the figures are archived on Zenodo: [10.5281/zenodo.20779472](https://doi.org/10.5281/zenodo.20779472).
 -   RAW fastq files were processed using Cellranger v7.2 (10x genomics) by using cellranger's "Antibody Capture" module. The "./filtered_feature_bc_matrix" outputs from cellranger was loaded in Seurat v5 for downstream analysis.
 
 ### Single Cell Transcriptome Analysis
